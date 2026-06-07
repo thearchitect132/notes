@@ -1,5 +1,4 @@
 # Notes Repository — Civilisation‑Stack Memory Substrate
-# Notes Repository — Civilisation‑Stack Memory Substrate
 
 This repository is the **thinking substrate** of the civilisation‑stack project.  
 It is not code.  
