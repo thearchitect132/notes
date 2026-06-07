@@ -1,0 +1,139 @@
+# **COPILOT CLI — MARKDOWN FORMATTING RULES v1.0**  
+*For repo‑wide automated cleanup and invariant enforcement*
+
+These rules tell Copilot CLI *how to rewrite, lint, and normalise* every `.md` file in the repository.
+
+You can run them as:
+
+```
+gh copilot apply-rules
+```
+
+(or whatever the final syntax becomes — the important part is the rule structure.)
+
+---
+
+# **1. Header Rules**
+
+**Rule:**  
+“Ensure all Markdown files use a strictly sequential header hierarchy.  
+Only one `#` header per file.  
+All section headers must be `##`, subsections `###`, and no deeper than `####`.  
+Insert exactly one blank line after every header.”
+
+**Copilot CLI directive:**  
+> Normalize all headers to a strict hierarchy: H1 appears once at top, H2 for sections, H3 for subsections, H4 only when necessary. Insert one blank line after each header. Remove any skipped header levels.
+
+---
+
+# **2. Spacing Rules**
+
+**Rule:**  
+“Ensure exactly one blank line between paragraphs, lists, code blocks, and diagrams.  
+Remove trailing whitespace.  
+Collapse multiple blank lines into one except before banners.”
+
+**Copilot CLI directive:**  
+> Reflow spacing so that all paragraphs, lists, and code blocks are separated by exactly one blank line. Remove trailing spaces. Reduce multiple blank lines to one, except when separating major sections with banners.
+
+---
+
+# **3. Banner Rules**
+
+**Rule:**  
+“All banners must use the canonical glyph:  
+`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`  
+Banners must be full‑width, unbroken, and unindented.”
+
+**Copilot CLI directive:**  
+> Replace all banner lines with the canonical full‑width unicode bar. Ensure banners are not indented and appear only at file top or between major sections.
+
+---
+
+# **4. Code Fence Rules**
+
+**Rule:**  
+“All code blocks must use triple backticks.  
+No indentation before fences.  
+No nested backticks inside fences.”
+
+**Copilot CLI directive:**  
+> Normalize all code blocks to triple‑backtick fences with no indentation. Remove nested backticks inside code blocks. Ensure opening and closing fences match.
+
+---
+
+# **5. List Rules**
+
+**Rule:**  
+“Unordered lists must use `-`.  
+Ordered lists must use `1.` for every item.  
+Nested lists must be indented by 4 spaces.”
+
+**Copilot CLI directive:**  
+> Rewrite all unordered lists to use `-`. Rewrite all ordered lists to use `1.` for each item. Fix nested list indentation to exactly 4 spaces.
+
+---
+
+# **6. Diagram Rules**
+
+**Rule:**  
+“All diagrams must be monospace‑aligned, fenced, and use only spaces.  
+Tree diagrams must use `├──`, `└──`, and `│`.”
+
+**Copilot CLI directive:**  
+> Wrap all diagrams in fenced code blocks. Replace tabs with spaces. Normalize tree glyphs to the canonical set. Ensure diagrams render identically in GitHub and plain text.
+
+---
+
+# **7. Link Rules**
+
+**Rule:**  
+“Internal links must be relative.  
+External links must use HTTPS.  
+No links inside code fences.”
+
+**Copilot CLI directive:**  
+> Convert all internal links to relative paths. Rewrite all external links to HTTPS. Remove or relocate links found inside code blocks.
+
+---
+
+# **8. Terminology Rules**
+
+**Rule:**  
+“Use the canonical civilisation‑stack lexicon across all files.”
+
+**Copilot CLI directive:**  
+> Replace non‑canonical synonyms with the official terminology: Continuity Foundations, Continuity Bytecode, Continuity VM, Continuity Kernel, Continuity Runtime, Continuity OS, Continuity Graph, Continuity Projection, GLIRL, TRU, Civilisation‑Stack, Deep‑Time, Sovereignty.
+
+---
+
+# **9. File Structure Rules**
+
+**Rule:**  
+“Every file must follow: Banner → Title → Overview → Sections → Optional Appendix.”
+
+**Copilot CLI directive:**  
+> Reorganize each Markdown file to begin with a banner, followed by a title, an overview section, then the main sections. Move appendices to the end. Ensure consistent ordering across the repo.
+
+---
+
+# **10. Tone Rules**
+
+**Rule:**  
+“Tone must be mythic‑technical, declarative, layered, and civilisational.  
+No emojis. No conversational filler.”
+
+**Copilot CLI directive:**  
+> Rewrite informal or conversational passages into mythic‑technical declarative tone. Remove emojis. Strengthen conceptual framing to match civilisation‑stack style.
+
+---
+
+# **11. Continuity Rules (Meta‑Lint)**
+
+**Rule:**  
+“Markdown must preserve identity, provenance, invariant, narrative, layer, and deep‑time continuity.”
+
+**Copilot CLI directive:**  
+> Ensure each file’s structure, terminology, and ordering reflect the trust‑continuity pipeline: foundations → systems → execution → civilisation. Fix any structural or narrative discontinuities.
+
+---
