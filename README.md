@@ -1,3 +1,21 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                T A M M E T R Y   /   N O T E S
+        C I V I L I S A T I O N – S C A L E   S T A C K
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A sovereign, multi‑layer architecture for world‑model design,
+trust‑continuity systems, symbolic computation, and long‑arc
+civilisational tooling.
+
+This repository is the living substrate of Tammetry:
+the research notes, the trust pipeline, the continuity stack,
+the glirl language, and the deep‑time knowledge substrate.
+
+Everything here participates in the same arc:
+from foundations → to systems → to execution → to civilisation.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
 # Notes Repository — Civilisation‑Stack Memory Substrate
 
 This repository is the **thinking substrate** of the civilisation‑stack project.  
