@@ -1,0 +1,74 @@
+{
+  "default": true,
+
+  // ───────────────────────────────────────────────
+  // HEADER RULES
+  // ───────────────────────────────────────────────
+
+  "MD001": true,                     // Heading levels should only increment by one
+  "MD002": true,                     // First heading should be H1
+  "MD003": { "style": "atx" },       // ATX (#) style headers only
+  "MD004": { "style": "dash" },      // Unordered lists must use '-'
+  "MD025": { "front_matter_title": "" }, // Only one H1 per file
+
+  // ───────────────────────────────────────────────
+  // SPACING RULES
+  // ───────────────────────────────────────────────
+
+  "MD012": { "maximum": 1 },         // No multiple consecutive blank lines
+  "MD009": true,                     // No trailing spaces
+  "MD022": true,                     // Headers must be surrounded by blank lines
+  "MD023": true,                     // Headers must start at the beginning of the line
+
+  // ───────────────────────────────────────────────
+  // CODE FENCE RULES
+  // ───────────────────────────────────────────────
+
+  "MD031": true,                     // Fenced code blocks should be surrounded by blank lines
+  "MD040": true,                     // Fenced code blocks should have a language specified (optional but recommended)
+  "MD046": { "style": "fenced" },    // Only fenced code blocks allowed
+
+  // ───────────────────────────────────────────────
+  // LIST RULES
+  // ───────────────────────────────────────────────
+
+  "MD005": true,                     // Inconsistent indentation for list items
+  "MD007": { "indent": 4 },          // Nested list indentation = 4 spaces
+  "MD029": { "style": "one" },       // Ordered lists must use '1.' for all items
+
+  // ───────────────────────────────────────────────
+  // LINK RULES
+  // ───────────────────────────────────────────────
+
+  "MD011": true,                     // No duplicate links
+  "MD034": true,                     // No bare URLs
+  "MD039": true,                     // No spaces inside link text
+
+  // ───────────────────────────────────────────────
+  // LINE LENGTH (DISABLED — CIVILISATION‑STACK NEEDS WIDE BANNERS)
+  // ───────────────────────────────────────────────
+
+  "MD013": false,                    // Allow long lines (banners, diagrams, spec text)
+
+  // ───────────────────────────────────────────────
+  // EMPHASIS / BOLD RULES
+  // ───────────────────────────────────────────────
+
+  "MD036": true,                     // No emphasis used for headers
+  "MD037": true,                     // No spaces inside emphasis markers
+
+  // ───────────────────────────────────────────────
+  // HTML (DISABLED — YOU USE PURE MARKDOWN)
+  // ───────────────────────────────────────────────
+
+  "MD033": false,                    // Allow HTML if ever needed (rare)
+
+  // ───────────────────────────────────────────────
+  // CUSTOM CIVILISATION‑STACK RULES (NON‑STANDARD)
+  // ───────────────────────────────────────────────
+
+  "no-tabs": true,                   // No tabs anywhere — diagrams must be space‑aligned
+  "no-emojis": true,                 // No emojis allowed in the repo
+  "canonical-banners": true,         // Enforce canonical unicode banner lines
+  "mythic-technical-tone": false     // Tone cannot be linted automatically (future Copilot CLI rule)
+}
