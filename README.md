@@ -14,59 +14,207 @@ the glirl language, and the deep‑time knowledge substrate.
 Everything here participates in the same arc:
 from foundations → to systems → to execution → to civilisation.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Overview
+This repository contains the Tammetry Notes Corpus — the evolving research substrate behind a civilisation‑scale cognitive architecture.
+It includes:
 
+the Trust‑Continuity Stack
 
-# Notes Repository — Civilisation‑Stack Memory Substrate
+the GLIRL language
 
-This repository is the **thinking substrate** of the civilisation‑stack project.  
-It is not code.  
-It is not architecture.  
-It is the **memory layer** where insights accumulate, evolve, and cohere.
+the civilisation‑stack architecture
 
-## Purpose
+the deep‑time knowledge substrate
 
-- Capture emerging concepts  
-- Preserve trust‑pipeline reasoning  
-- Record mythic‑technical fragments  
-- Store reflections on architecture and workflow  
-- Maintain a long‑term ledger of thought  
-- Provide a relaxed reading environment away from active development  
+the sovereign multi‑hosted Git model
 
-This repo functions as the **monastery** of the system — a quiet substrate where ideas mature.
+This repo is not a project.
+It is a world‑model.
 
-## Structure
+A place where identity, provenance, verification, invariants, narrative, and TRU flows converge into a single coherent system.
 
-```
+Repository Structure
+Code
 notes/
 │
 ├── trust/
-│   ├── zero-trust.md
-│   ├── zero-knowledge-architecture.md
-│   └── coherent-trust.md
+│   ├── continuity-foundations.md
+│   ├── continuity-bytecode.md
+│   ├── continuity-vm.md
+│   ├── continuity-kernel.md
+│   ├── continuity-runtime.md
+│   ├── continuity-os.md
+│   ├── continuity-spec.md
+│   └── ...
 │
-├── civilisation-stack/
-│   ├── mythic-technical.md
-│   ├── architecture-reflections.md
-│   └── workflow-designs.md
+├── glirl/
+│   ├── syntax.md
+│   ├── semantics.md
+│   ├── examples.md
+│   └── ...
 │
-├── personal/
-│   ├── insights.md
-│   ├── questions.md
-│   └── breakthroughs.md
-│
-└── archive/
-    └── YYYY-MM-DD.md
-```
+└── civilisation/
+    ├── architecture.md
+    ├── invariants.md
+    ├── trust-pipeline.md
+    └── ...
+Each directory is a layer of the civilisation‑stack.
 
-## Usage
+The Trust‑Continuity Stack
+The Trust‑Continuity Stack is the core of the repo — a complete, multi‑layer system for evaluating, executing, and preserving trust across epochs.
 
-- Add insights as they arise  
-- Archive dated notes for long‑term memory  
-- Expand trust‑pipeline documents as the architecture evolves  
-- Maintain coherence across repos by keeping conceptual work here  
+It includes:
 
-## Related Repositories
+Foundations — mathematical substrate
 
-- **[civilisation‑stack](ca://s?q=Open_civilisation_stack_repo)** — architecture, whitepapers, system design  
-- **[trust‑pipeline](ca://s?q=Open_trust_pipeline_notes)** — zero‑trust → zero‑knowledge → coherent‑trust  
-- **[canonical origin](ca://s?q=Open_canonical_origin)** — sovereign Git substrate on the second drive
+Bytecode — executable glyph format
+
+VM — deterministic executor
+
+Kernel — irreducible truth‑function
+
+Runtime — execution organism
+
+OS — sovereign environment
+
+Spec — unified canonical specification
+
+This stack defines:
+
+identity continuity
+
+contribution continuity
+
+provenance continuity
+
+verification continuity
+
+invariant continuity
+
+narrative continuity
+
+TRU continuity
+
+layer continuity
+
+deep‑time continuity
+
+It is the mathematical heart of Tammetry.
+
+GLIRL — The Glyphic Language
+GLIRL is the symbolic language of the civilisation‑stack.
+
+It provides:
+
+glyphic syntax
+
+semantic operators
+
+structural combinators
+
+trust‑aware constructs
+
+continuity‑aligned semantics
+
+GLIRL is the linguistic substrate of the system.
+
+Explore via:
+
+GLIRL Syntax
+
+GLIRL Semantics
+
+GLIRL Examples
+
+Civilisation‑Stack Architecture
+The civilisation‑stack is the macro‑architecture that unifies:
+
+trust systems
+
+symbolic languages
+
+knowledge substrates
+
+sovereign infrastructure
+
+multi‑hosted replication
+
+deep‑time continuity
+
+It is the world‑model in which Tammetry operates.
+
+See:
+
+Architecture Overview
+
+Invariants
+
+Trust Pipeline
+
+Sovereign Multi‑Hosted Git Model
+This repo participates in a tri‑remote model:
+
+origin — sovereign local host
+
+GitHub — public replication
+
+Codeberg — independent redundancy
+
+This ensures:
+
+no single point of failure
+
+no centralised dependency
+
+deep‑time durability
+
+sovereign continuity
+
+The repo is designed to be multi‑epoch and multi‑hosted.
+
+Versioning Philosophy
+This repository uses epochal versioning, not semantic versioning.
+
+Each version marks a civilisational milestone, not a software increment.
+
+Examples:
+
+v0.1 — Continuity Corpus
+
+v0.2 — GLIRL Expansion
+
+v0.3 — Runtime Simulation
+
+v0.4 — TRU Issuance Model
+
+Versions track conceptual evolution, not code changes.
+
+Roadmap
+The next epochs include:
+
+Continuity Runtime Simulation
+
+TRU Issuance Model
+
+Continuity Graph Visualisation
+
+GLIRL Interpreter
+
+Sovereign Replication Engine
+
+Each milestone deepens the system’s coherence.
+
+Philosophy
+This repository is built on three principles:
+
+Sovereignty  
+Systems must be self‑hostable, self‑describing, and self‑verifying.
+
+Continuity  
+Trust must remain coherent across transitions, layers, and epochs.
+
+Deep‑Time  
+Knowledge must survive beyond individuals, platforms, and eras.
+
+This is not a codebase.
+It is a civilisational artefact.
